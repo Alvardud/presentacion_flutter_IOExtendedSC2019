@@ -25,7 +25,7 @@ class Cuerpo extends StatelessWidget {
             width: 500.0,
             height: 500.0,
             child: Center(
-            child: Image.asset('Flutter-3.jpg',fit: BoxFit.contain,),),)
+            child: Image.asset('images/Flutter-3.jpg',fit: BoxFit.contain,),),)
         ],
       ),
     );

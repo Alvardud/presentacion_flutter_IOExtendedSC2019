@@ -22,7 +22,7 @@ class Titulo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 60.0,
+      height: 64.0,
       margin: EdgeInsets.only(right:16.0,left: 40.0,top: 4.0),
       padding: EdgeInsets.symmetric(vertical: 4.0),
       width: MediaQuery.of(context).size.width,
@@ -96,7 +96,7 @@ class EstructuraSlide extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
           Titulo(title: title,),
-          Padding(padding: EdgeInsets.symmetric(vertical: 4.0),),
+          Padding(padding: EdgeInsets.symmetric(vertical: 2.0),),
           Picker(),
           cuerpo,
           Footer()
@@ -140,9 +140,9 @@ class CardImagen extends StatelessWidget {
               ),
             ),
           ),
-          Container(height: 4.0,),
+          Container(height: 8.0,),
           Text(nombre,style: TextStyle(
-              color: Colors.black54,fontSize: 16.0
+              color: Colors.black54,fontSize: 28.0
           ),textAlign: TextAlign.center,
           )
         ],

@@ -38,7 +38,7 @@ class Cuerpo extends StatelessWidget {
               child: DecoratedBox(
                 decoration: BoxDecoration(
                   image: DecorationImage(
-                    image: AssetImage('dartlogo.png'),
+                    image: AssetImage('images/dartlogo.png'),
                   ),
                 ),
               ),

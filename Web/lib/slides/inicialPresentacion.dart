@@ -46,7 +46,7 @@ class LadoIzquierdo extends StatelessWidget {
                 child: DecoratedBox(
                   decoration: BoxDecoration(
                     image: DecorationImage(
-                      image: AssetImage('logoevento.jpg'),
+                      image: AssetImage('images/logoevento.jpg'),
                     ),
                   ),
                 ),
@@ -135,7 +135,7 @@ class FotoPerfil extends StatelessWidget {
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(50.0),
           image: DecorationImage(
-            image: AssetImage('foto.jpg'),
+            image: AssetImage('images/foto.jpg'),
           ),
         ),
       ),

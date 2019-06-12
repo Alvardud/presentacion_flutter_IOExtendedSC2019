@@ -52,7 +52,7 @@ class Foto extends StatelessWidget {
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(60.0),
           image: DecorationImage(
-            image: AssetImage('foto.jpg'),
+            image: AssetImage('images/foto.jpg'),
           ),
         ),
       ),
@@ -74,9 +74,9 @@ class InformacionPersonal extends StatelessWidget {
         Row(
           mainAxisAlignment: MainAxisAlignment.start,
           children: <Widget>[
-            RedesSociales(nick: '@alvardud',direccionFoto: 'twitter.png',),
+            RedesSociales(nick: '@alvardud',direccionFoto: 'images/twitter.png',),
             Container(width: 16.0,),//twitter
-            RedesSociales(nick: 'alvardud',direccionFoto: 'github.png',), //github
+            RedesSociales(nick: 'alvardud',direccionFoto: 'images/github.png',), //github
           ],
         ),
       ],
