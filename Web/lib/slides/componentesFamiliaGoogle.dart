@@ -57,7 +57,7 @@ class Abajo extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.center,
         children: <Widget>[
           Expanded(child: CardImagen(direccion: 'images/firebase.png',nombre: 'Firebase',width: 125.0,heigth:150.0)),
-          Expanded(child: CardImagen(direccion: 'images/materialdesign-min.png',nombre: 'Material Design',width: 150.0,heigth:150.0)),
+          Expanded(child: CardImagen(direccion: 'images/tflite.png',nombre: 'TensorFlow',width: 300.0,heigth:100.0)),
           Expanded(child: CardImagen(direccion: 'images/cloud.png',nombre: 'Cloud Platform',width: 200.0,heigth:150.0),),
           Expanded(child: CardImagen(direccion: 'images/mlkit.png',nombre: 'ML Kit',width: 200.0,heigth:150.0))
         ],

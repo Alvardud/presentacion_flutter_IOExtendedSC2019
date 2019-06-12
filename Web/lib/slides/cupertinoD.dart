@@ -2,11 +2,11 @@ import 'package:flutter_web/material.dart';
 import 'package:presentacion_iosc2019/widgets/common.dart';
 import 'package:presentacion_iosc2019/widgets/wppWidgetsAndroid.dart' as wpp;
 
-class MaterialDesign extends StatelessWidget {
+class CupertinoD extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return EstructuraSlide(
-      title: 'Material Design',
+      title: 'Cupertino',
       cuerpo: Cuerpo(),
     );
   }

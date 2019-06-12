@@ -140,7 +140,7 @@ class CardImagen extends StatelessWidget {
               ),
             ),
           ),
-          Container(height: 8.0,),
+          SizedBox(height: 16.0,),
           Text(nombre,style: TextStyle(
               color: Colors.black54,fontSize: 28.0
           ),textAlign: TextAlign.center,
